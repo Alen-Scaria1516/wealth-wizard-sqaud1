@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from utils.code_generation import generate_and_store_token
 from utils.send_email import send_verification_email
+import oracledb
 
 def forget_password(connection):
     cursor = connection.cursor()
@@ -32,13 +33,15 @@ def forget_password(connection):
     
     db_token, time_generated = row
     
-    if entered_token != db_token:
+    valid_token = cursor.callfunc("CodeValidationForPassword", oracledb.NUMBER, [email, token] )
+    
+    if valid_token ==0 :
         print("Invalid token. Password reset failed.")
         cursor.close()
         connection.close()
         exit()
         
-    if db_token == entered_token and datetime.now() - time_generated < timedelta(minutes=10):
+    else :
         new_password = input("Enter new password: ")
         cursor.execute(
             "UPDATE Users SET password = :password, last_modified = CURRENT_TIMESTAMP WHERE Email_ID = :email", {"password" : new_password, "email" : email})
