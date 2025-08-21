@@ -21,9 +21,10 @@ def register_user(connection):
     
     name = input("Enter your name: ")
     email = input("Enter your email: ")
-    #existing user
-    cursor.execute("SELECT COUNT(*) FROM Users WHERE LOWER(Email_ID) = LOWER(:email)", {"email": email})
-    if cursor.fetchone()[0] > 0:
+    #existing user from stored procedure
+    email_count = cursor.var(oracledb.NUMBER)
+    cursor.callproc("check_user_email", [email, email_count])
+    if email_count.getvalue() > 0:
         print("User already registered. Please login.")
         return
     age = int(input("Enter your age: "))
