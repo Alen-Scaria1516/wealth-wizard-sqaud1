@@ -63,3 +63,17 @@ BEGIN
     v_status := CODEVALIDATION(P_EMAIL_ID, inputToken);
     DBMS_OUTPUT.PUT_LINE(v_status);
 END;
+
+--check existing email for registration
+create or replace PROCEDURE check_user_email (
+    p_email     IN  VARCHAR2,
+    p_exists    OUT NUMBER
+)
+AS
+BEGIN
+    SELECT COUNT(*)
+    INTO p_exists
+    FROM Users
+    WHERE LOWER(email_id) = LOWER(p_email);
+
+END;
