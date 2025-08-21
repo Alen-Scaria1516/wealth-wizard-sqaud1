@@ -29,5 +29,4 @@ def email_verification(connection):
             if status == True:
                 print("Verified")
             if (status == False):
-                #take to main menu.
-                pass
+                print("Try Again")
