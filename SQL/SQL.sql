@@ -33,3 +33,33 @@ SELECT * FROM USER_DETAILS;
 
 DROP TABLE USERS;
 DROP TABLE USER_DETAILS;
+
+Create or REPLACE FUNCTION CodeValidation(p_email_ID Users.Email_ID%TYPE , inputToken Users.token%TYPE)
+RETURN NUMBER
+IS
+    dbToken Users.token%TYPE;
+    timeGenerated Users.last_modified%TYPE;
+    v_Status NUMBER;
+BEGIN
+    Select token, last_modified into dbToken, timeGenerated from users WHERE Email_ID = p_email_ID;
+    if (dbToken = inputToken) And (SYSTIMESTAMP - timeGenerated < NUMTODSINTERVAL(5, 'MINUTE'))  THEN
+        DBMS_OUTPUT.PUT_LINE('User Verified Successfully');
+        UPDATE Users SET is_verified = 1, last_modified = SYSTIMESTAMP WHERE email_id = p_email_ID;
+        COMMIT;
+        v_Status := 1;
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Incorrect token or token expired, verify again.');
+        v_Status := 0;
+    END IF;
+    RETURN v_Status;
+End;
+
+SET SERVEROUTPUT on;
+DECLARE
+    p_email_ID Users.Email_ID%TYPE := 'anurag291003sahu@gmail.com';
+    v_status NUMBER;
+    inputToken Users.token%TYPE := 'b7228634-9679-4af5-b469-7d248a1835fa';
+BEGIN
+    v_status := CODEVALIDATION(P_EMAIL_ID, inputToken);
+    DBMS_OUTPUT.PUT_LINE(v_status);
+END;
