@@ -28,11 +28,11 @@ START WITH 1
 INCREMENT BY 1
 NOCACHE;
 
-SELECT * FROM USERS;
-SELECT * FROM USER_DETAILS;
+-- SELECT * FROM USERS;
+-- SELECT * FROM USER_DETAILS;
 
-DROP TABLE USERS;
-DROP TABLE USER_DETAILS;
+-- DROP TABLE USERS;
+-- DROP TABLE USER_DETAILS;
 
 Create or REPLACE FUNCTION CodeValidation(p_email_ID Users.Email_ID%TYPE , inputToken Users.token%TYPE)
 RETURN NUMBER
@@ -54,15 +54,15 @@ BEGIN
     RETURN v_Status;
 End;
 
-SET SERVEROUTPUT on;
-DECLARE
-    p_email_ID Users.Email_ID%TYPE := 'anurag291003sahu@gmail.com';
-    v_status NUMBER;
-    inputToken Users.token%TYPE := 'b7228634-9679-4af5-b469-7d248a1835fa';
-BEGIN
-    v_status := CODEVALIDATION(P_EMAIL_ID, inputToken);
-    DBMS_OUTPUT.PUT_LINE(v_status);
-END;
+-- SET SERVEROUTPUT on;
+-- DECLARE
+--     p_email_ID Users.Email_ID%TYPE := 'anurag291003sahu@gmail.com';
+--     v_status NUMBER;
+--     inputToken Users.token%TYPE := 'b7228634-9679-4af5-b469-7d248a1835fa';
+-- BEGIN
+--     v_status := CODEVALIDATION(P_EMAIL_ID, inputToken);
+--     DBMS_OUTPUT.PUT_LINE(v_status);
+-- END;
 
 --check existing email for registration
 create or replace PROCEDURE check_user_email (
@@ -77,3 +77,27 @@ BEGIN
     WHERE LOWER(email_id) = LOWER(p_email);
 
 END;
+
+-- Stored procedure to logout user
+CREATE OR REPLACE PROCEDURE logout_user_proc(p_user_id IN NUMBER)
+IS
+BEGIN
+    UPDATE Users
+    SET is_loggedIn = 0,
+        token = NULL,
+        last_modified = SYSTIMESTAMP
+    WHERE User_ID = p_user_id;
+    COMMIT;
+END logout_user_proc;
+
+-- Stored procedure to expire session
+CREATE OR REPLACE PROCEDURE expire_session_proc(p_user_id IN NUMBER)
+IS
+BEGIN
+    UPDATE Users
+    SET is_loggedIn = 0,
+        token = NULL,
+        last_modified = SYSTIMESTAMP
+    WHERE User_ID = p_user_id;
+    COMMIT;
+END expire_session_proc;

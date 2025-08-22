@@ -1,4 +1,5 @@
 import bcrypt
+import getpass
 
 def login_user(connection):
     email = input("Enter your email: ").strip()
@@ -9,7 +10,7 @@ def login_user(connection):
         # Check if user exists by email first
         cur.execute("""
             SELECT User_ID, Password, is_Verified, is_loggedIn
-            FROM SYSTEM.USERS
+            FROM USERS
             WHERE Email_ID = :email
         """, {"email": email})
 
@@ -20,26 +21,23 @@ def login_user(connection):
             return  # Stop here if email not found
 
         user_id, stored_password, is_verified, is_loggedin = user
-        print(type(stored_password))
+        # print(type(stored_password))
+        
+        if is_verified != 1:
+            print("Error: Please verify your account before logging in.")
+            return
+        
+        for attempt in range(3):
+            pw_try = getpass.getpass("Enter your password: ").strip()
 
-        password = input("Enter your password: ").strip()
+            ok = bcrypt.checkpw(pw_try.encode(), stored_password.encode())
 
-        password_matches = False
-
-        # Check if stored_password is hashed or plain text
-        password_matches = bcrypt.checkpw(password.encode('utf-8'), stored_password.encode('utf-8'))
-
-        if password_matches:
-            # Password correct
-            if is_verified == 1:
-                # Only allow login if user is verified
-                # hashed_password = bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
-
+            if ok:
+                # Password correct
                 if is_loggedin == 1:
                     print("Error: User already logged in.")
                     return
 
-                # Update hashed password, loggedIn flag, last_modified timestamp
                 cur.execute("""
                     UPDATE SYSTEM.USERS
                     SET is_loggedIn = 1,
@@ -48,22 +46,31 @@ def login_user(connection):
                 """, {"user_id": user_id})
                 connection.commit()
                 print("Login successful! Redirecting to dashboard...")
-                return
-            else:
-                # User not verified, do not allow login
-                print("Error: User not verified. Please verify your account before logging in.")
-                return
+                return (user_id, email)
 
-        else:
-            # Password incorrect
-            print("Error: Invalid password.")
-            return
+            else:
+                remaining = 2 - attempt
+                if remaining >= 1:
+                    print("Error: Invalid password. Please try again.")
+                else:
+                    print("Error: Login denied.")
+                    return None
 
     except Exception as e:
-        # Friendly error message for unexpected issues
-        print("Error: An unexpected error occurred during login. Please try again later.")
-        # For debugging (optional): print(f"Debug info: {e}")
+        print("Error during login:", e)
+        return None
     finally:
         cur.close()
         
     return 
+
+def logout_user(connection, user_id):
+    """Logs out a user by clearing token and marking is_loggedIn = 0."""
+    try:
+        conn = connection
+        cur = conn.cursor()
+        cur.callproc("logout_user_proc", [user_id])
+        conn.commit()
+        print("Logged out.")
+    except Exception as e:
+        print("Error during logout:", e)
