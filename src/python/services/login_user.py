@@ -39,7 +39,7 @@ def login_user(connection):
                     return
 
                 cur.execute("""
-                    UPDATE SYSTEM.USERS
+                    UPDATE USERS
                     SET is_loggedIn = 1,
                         last_modified = SYSTIMESTAMP
                     WHERE User_ID = :user_id

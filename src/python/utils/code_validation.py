@@ -11,6 +11,5 @@ def code_validation(email_id, inputToken, connection):
         status = False
     
     cursor.close()
-    connection.close()
     return status
     

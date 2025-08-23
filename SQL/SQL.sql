@@ -101,3 +101,23 @@ BEGIN
     WHERE User_ID = p_user_id;
     COMMIT;
 END expire_session_proc;
+
+-- Procedure for Code Validation 
+CREATE OR REPLACE FUNCTION CodeValidationForPassword( p_email_ID Users.Email_ID%TYPE,
+ inputToken Users.token%TYPE)
+ RETURN NUMBER
+ IS 
+    dbToken Users.token%TYPE;
+    timeGenerated Users.last_modified%TYPE;
+    v_Status NUMBER;
+BEGIN
+    Select token, last_modified into dbToken, timeGenerated from users WHERE Email_ID = p_email_ID;
+    if (dbToken = inputToken) And (SYSTIMESTAMP - timeGenerated < NUMTODSINTERVAL(5, 'MINUTE'))  THEN
+        DBMS_OUTPUT.PUT_LINE('User Verified Successfully');
+        v_Status := 1;
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Incorrect token or token expired, verify again.');
+        v_Status := 0;
+    END IF;
+    RETURN v_Status;
+End;
