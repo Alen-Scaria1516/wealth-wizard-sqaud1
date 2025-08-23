@@ -21,12 +21,23 @@ def email_verification(connection):
         if (is_verified == 1):
             print("\nUser is already verified.")
         else:
+            # Generate and send token
             token_for_email = generate_and_store_token(email_id, connection)
-            send_verification_email(email_id, token_for_email)
-            print("\n")
-            inputToken = input("Enter your verification token : ")
-            status = code_validation(email_id, inputToken, connection)
-            if status == True:
-                print("Verified")
-            if (status == False):
-                print("Try Again")
+            send_verification_email(email_id, token_for_email, code=1)
+
+            # Allow up to 3 attempts
+            for token_attempt in range(3):
+                input_token = input("Enter your verification token: ")
+
+                # Validate the token
+                status = code_validation(email_id, input_token, connection)
+
+                if status == True:
+                    print("Verified")
+                    break
+                else:
+                    remaining = 2 - token_attempt
+                    if remaining >= 1:
+                        print(f"Invalid token. You have {remaining} attempt(s) left. Please try again.")
+                    else:
+                        print("Verification failed. Please restart the process.")

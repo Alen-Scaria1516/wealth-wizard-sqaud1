@@ -7,9 +7,13 @@ load_dotenv()
 sender_email = os.getenv("sender_email")
 app_password = os.getenv("app_password")
 
-def send_verification_email(email_id, token_for_email):
-    message = MIMEText(f"Your code for verification is: {token_for_email}")
-    message["Subject"] = "Verify Your Email"
+def send_verification_email(email_id, token_for_email, code):
+    
+    message = MIMEText(
+        f"Your code for verification is: {token_for_email}" if code == 1 
+        else f"Your code for Password Reset is: {token_for_email}"
+    )
+    message["Subject"] = "Wealth Wizard - Verify Your Email" if code == 1 else "Wealth Wizard - Password Reset"
     message["From"] = sender_email
     message["To"] = email_id
     
