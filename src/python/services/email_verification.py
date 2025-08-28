@@ -1,11 +1,10 @@
 from utils.code_generation import generate_and_store_token 
 from utils.code_validation import code_validation
 from utils.send_email import send_verification_email
-def email_verification(connection):
+def email_verification(connection, email_id):
     flag = True
     cursor = connection.cursor()
     
-    email_id = input("Enter your Email ID : ")
     try:
         cursor.execute(
         "Select is_verified from users WHERE email_id = :email_id",
@@ -27,7 +26,7 @@ def email_verification(connection):
 
             # Allow up to 3 attempts
             for token_attempt in range(3):
-                input_token = input("Enter your verification token: ")
+                input_token = input("Enter your verification token sent to your email : ")
 
                 # Validate the token
                 status = code_validation(email_id, input_token, connection)
