@@ -4,6 +4,7 @@ import re
 import bcrypt
 from getpass import getpass
 from utils.send_email import send_registration_email
+from services.email_verification import email_verification
 
 #strong password
 def is_strong_password(password):
@@ -80,6 +81,8 @@ def register_user(connection):
 
         # send email
         send_registration_email(email, user_id, reg_id)
+        # verify email
+        email_verification(connection, email)
 
     except oracledb.IntegrityError:
         print("Error: Email already exists.")

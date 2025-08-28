@@ -60,7 +60,7 @@ DECLARE
     v_status NUMBER;
     inputToken Users.token%TYPE := 'b7228634-9679-4af5-b469-7d248a1835fa';
 BEGIN
-    v_status := CODEVALIDATION(P_EMAIL_ID, inputToken);
+    v_status := CodeValidation(P_EMAIL_ID, inputToken);
     DBMS_OUTPUT.PUT_LINE(v_status);
 END;
 
