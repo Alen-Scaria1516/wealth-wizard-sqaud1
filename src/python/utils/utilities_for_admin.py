@@ -4,7 +4,7 @@ import random
 import string
 from datetime import datetime, timedelta
 
-def generate_dummy_logs(num_users=100):
+def generate_dummy_verification_logs(num_users=100):
     logs = []
     base_time = datetime.now()
 
@@ -52,9 +52,9 @@ def generate_dummy_logs(num_users=100):
 # Generate 100 dummy logs
 import json
 from bson import json_util   # comes with pymongo
-dummy_logs = generate_dummy_logs(100)
+dummy_logs = generate_dummy_verification_logs(100)
 # If you want JSON/TXT output that Mongo can also read back
-with open("dummy_logs.txt", "w") as f:
+with open("src\python\data_files/dummy_verification_logs.txt", "w") as f:
     f.write(json_util.dumps(dummy_logs, indent=2))   #handles datetime 
 
 #push dummy logs to mongodb using terminal
@@ -65,7 +65,7 @@ with open("dummy_logs.txt", "w") as f:
 import subprocess
 import os
 
-def export_logs_to_txt(folder_path="src\python\data_files", file_name="logs.txt"):
+def export_verification_logs_to_txt(folder_path="src\python\data_files", file_name="verification_logs.txt"):
     # Ensure the folder exists
     os.makedirs(folder_path, exist_ok=True)
 

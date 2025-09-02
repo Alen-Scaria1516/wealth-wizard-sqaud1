@@ -1,11 +1,11 @@
-from utils.utilities_for_admin import export_logs_to_txt
+from utils.utilities_for_admin import export_verification_logs_to_txt
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, min as spark_min, max as spark_max, avg, count, when, unix_timestamp
 #export as a txt file
 def setup_pyspark():
-    export_logs_to_txt()
+    export_verification_logs_to_txt()
     spark = SparkSession.builder.appName("Project").getOrCreate()
-    df = spark.read.json("src\python\data_files\logs.txt")
+    df = spark.read.json(r"src\python\data_files\verification_logs.txt")
     return df
 #df.show()
 #df.printSchema()
