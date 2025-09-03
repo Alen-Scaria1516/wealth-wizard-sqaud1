@@ -33,7 +33,7 @@ def email_verification(connection, mongo_connection):
 
             # Allow up to 3 attempts
             for token_attempt in range(3):
-                input_token = input("Enter your verification token: ")
+                input_token = input("Enter your verification token sent to your email : ")
 
                 # Validate the token
                 status = code_validation(email_id, input_token, connection)

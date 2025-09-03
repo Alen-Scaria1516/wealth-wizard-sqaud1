@@ -49,7 +49,7 @@ def forget_password(connection):
                     "UPDATE Users SET password = :password, last_modified = CURRENT_TIMESTAMP WHERE Email_ID = :email", {"password" : new_password, "email" : email})
                 connection.commit()
                 
-                print("Password reset successful.")
+                print("Password reset successful.\n")
                 break
     except Exception as e:
         print('Error Occured :', e)
