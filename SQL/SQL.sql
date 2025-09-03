@@ -79,7 +79,7 @@ BEGIN
 END;
 
 -- Stored procedure to logout user
-CREATE OR REPLACE PROCEDURE logout_user_proc(p_user_id IN NUMBER)
+CREATE OR REPLACE PROCEDURE logout_user_proc(p_user_id IN VARCHAR2)
 IS
 BEGIN
     UPDATE Users

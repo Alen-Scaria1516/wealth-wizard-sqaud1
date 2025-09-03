@@ -2,12 +2,14 @@ import oracledb
 from datetime import datetime
 from utils.send_email import send_registration_email
 from utils.password import get_password
+from services.email_verification import email_verification
 
     
 #registration
 def register_user(connection):
     cursor = connection.cursor()
     
+    success = 0
     name = input("Enter your name: ")
     email = input("Enter your email: ")
     #existing user from stored procedure
@@ -46,6 +48,9 @@ def register_user(connection):
 
         # send email
         send_registration_email(email, user_id, reg_id)
+        success = 1
+        print("Email Verification")
+        email_verification(connection, email)
 
     except oracledb.IntegrityError:
         print("Error: Email already exists.")
@@ -53,4 +58,4 @@ def register_user(connection):
         print("An error occurred:", e)
         
     cursor.close()
-    return 
+    return success
