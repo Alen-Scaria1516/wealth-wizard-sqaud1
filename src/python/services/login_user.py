@@ -64,7 +64,7 @@ def login_user(connection):
                     print("Any other To Continue Attempt")
                     choice = input("Enter your choice: ")
                     if choice == "1":
-                        cur.close()
+                        #cur.close()
                         forget_password(connection)
                     else : 
                         pass

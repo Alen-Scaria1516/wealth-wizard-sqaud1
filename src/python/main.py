@@ -1,10 +1,10 @@
 from services import register_user, login_user, forget_password, email_verification
 from database.connection import get_connection
-
+from database.mongo_connection import get_mongo_connection
 
 def main_menu():
     connection = get_connection()
-    
+    mongo_connection = get_mongo_connection()
     while True:
         print("\n=== Wealth Wizard Menu ===")
         print("1. Register")
@@ -15,9 +15,9 @@ def main_menu():
             successful_registration = register_user(connection)
             if successful_registration == 1: 
                 print("\n Login ")
-                login_user(connection)
+                login_user(connection, mongo_connection)
         elif choice == "2":
-            login_user(connection)
+            login_user(connection, mongo_connection)
         elif choice == "3":
             print("Exiting.")
             break
