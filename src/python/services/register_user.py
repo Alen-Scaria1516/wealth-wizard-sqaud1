@@ -6,7 +6,7 @@ from services.email_verification import email_verification
 
     
 #registration
-def register_user(connection):
+def register_user(connection, mongo_connection):
     cursor = connection.cursor()
     
     success = 0
@@ -50,7 +50,7 @@ def register_user(connection):
         send_registration_email(email, user_id, reg_id)
         success = 1
         print("Email Verification")
-        email_verification(connection, email)
+        email_verification(connection, mongo_connection, email)
 
     except oracledb.IntegrityError:
         print("Error: Email already exists.")

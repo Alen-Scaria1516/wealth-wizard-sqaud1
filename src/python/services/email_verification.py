@@ -2,7 +2,7 @@ from utils.code_generation import generate_and_store_token
 from utils.code_validation import code_validation
 from utils.send_email import send_verification_email
 from utils.log_generation import log_to_mongo
-def email_verification(connection, mongo_connection):
+def email_verification(connection, mongo_connection, email_id):
     flag = True
     cursor = connection.cursor()
     
@@ -10,7 +10,7 @@ def email_verification(connection, mongo_connection):
     db = client["User_logs"]
     logs_collection = db["logs"]
     
-    email_id = input("Enter your Email ID : ")
+    #email_id = input("Enter your Email ID : ")
     try:
         cursor.execute(
         "Select is_verified from users WHERE email_id = :email_id",
@@ -28,7 +28,7 @@ def email_verification(connection, mongo_connection):
         else:
             # Generate and send token
             token_for_email = generate_and_store_token(email_id, connection)
-            log_to_mongo(logs_collection, email_id, "TOKEN_GENERATED", {"token": token_for_email})
+            log_to_mongo(logs_collection, email_id, "VERIFICATION","TOKEN_GENERATED", {"token": token_for_email})
             send_verification_email(email_id, token_for_email, code=1)
 
             # Allow up to 3 attempts
@@ -39,7 +39,7 @@ def email_verification(connection, mongo_connection):
                 status = code_validation(email_id, input_token, connection)
                 log_to_mongo(
                     logs_collection,
-                    email_id,
+                    email_id, "VERIFICATION",
                     "ATTEMPT",
                     {"attempt_number": token_attempt+1, "input_token": input_token, "status": status}
                 )

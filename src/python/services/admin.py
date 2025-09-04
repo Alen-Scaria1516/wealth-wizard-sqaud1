@@ -13,12 +13,14 @@ def compute_verification_stats(df):
     # Flatten
     flat_df = df.select(
         col("email_id"),
+        col("category"),
         col("action"),
         col("details.attempt_number").alias("attempt_number"),
         col("details.status").alias("status"),
         col("timestamp.$date").alias("timestamp")
     )
     
+    flat_df = flat_df.filter(col("category") == 'VERIFICATION')
     # Convert timestamp string to proper timestamp
     flat_df = flat_df.withColumn("timestamp", col("timestamp").cast("timestamp"))
     

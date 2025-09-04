@@ -4,7 +4,7 @@ from services.email_verification import email_verification
 from services.forget_password import forget_password
 from services.dashboard import dashboard
 
-def login_user(connection):
+def login_user(connection, mongo_connection):
     email = input("Enter your email: ").strip()
 
     try:

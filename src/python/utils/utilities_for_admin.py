@@ -16,9 +16,10 @@ def generate_dummy_verification_logs(num_users=100):
         # Log token generation
         logs.append({
             "email_id": email,
+            "category": "VERIFICATION",
             "action": "TOKEN_GENERATED",
             "details": {"token": token},
-            "timestamp": time   # ✅ store datetime object
+            "timestamp": time   # store datetime object
         })
 
         verified = False
@@ -35,13 +36,14 @@ def generate_dummy_verification_logs(num_users=100):
 
             logs.append({
                 "email_id": email,
+                "category": "VERIFICATION",
                 "action": "ATTEMPT",
                 "details": {
                     "attempt_number": attempt,
                     "input_token": input_token,
                     "status": status
                 },
-                "timestamp": time   # ✅ still datetime, not string
+                "timestamp": time   # still datetime, not string
             })
 
             if verified:
@@ -58,7 +60,7 @@ with open("src\python\data_files/dummy_verification_logs.txt", "w") as f:
     f.write(json_util.dumps(dummy_logs, indent=2))   #handles datetime 
 
 #push dummy logs to mongodb using terminal
-#  mongoimport --db User_logs --collection logs --file dummy_logs.txt --jsonArray
+#  mongoimport --db User_logs --collection logs --file dummy_verification_logs.txt --jsonArray
 
 ###################################################################################
 #Function for exporting logs from mongodb as text file 

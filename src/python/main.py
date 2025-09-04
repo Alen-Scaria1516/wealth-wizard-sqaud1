@@ -12,12 +12,15 @@ def main_menu():
         print("3. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
-            successful_registration = register_user(connection)
+            successful_registration = register_user(connection, mongo_connection)
             if successful_registration == 1: 
                 print("\n Login ")
                 login_user(connection, mongo_connection)
         elif choice == "2":
             login_user(connection, mongo_connection)
+        elif choice == "4":
+            admin.admin_verification_stats()
+
         elif choice == "3":
             print("Exiting.")
             break
