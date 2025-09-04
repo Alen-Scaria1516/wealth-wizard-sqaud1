@@ -13,7 +13,7 @@ def main_menu():
         print("4. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
-            successful_registration = register_user(connection)
+            successful_registration = register_user(connection, mongo_connection)
             if successful_registration == 1: 
                 print("\n Login ")
                 login_user(connection, mongo_connection)
