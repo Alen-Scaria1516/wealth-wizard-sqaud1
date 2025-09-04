@@ -4,7 +4,7 @@ from services.email_verification import email_verification
 from services.forget_password import forget_password
 from services.dashboard import dashboard
 
-def login_user(connection):
+def login_user(connection, mongo_connection):
     email = input("Enter your email: ").strip()
 
     try:
@@ -29,7 +29,7 @@ def login_user(connection):
         if is_verified != 1:
             cur.close()
             print("Error: Please verify your account before logging in.")
-            email_verification(connection,email)
+            email_verification(connection,mongo_connection,email)
             return
         
         for attempt in range(3):
