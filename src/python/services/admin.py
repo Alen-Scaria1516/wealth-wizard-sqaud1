@@ -1,6 +1,7 @@
 from utils.utilities_for_admin import export_verification_logs_to_txt
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, min as spark_min, max as spark_max, avg, count, when, unix_timestamp
+from pyspark.sql.functions import concat_ws
 #export as a txt file
 def setup_pyspark():
     export_verification_logs_to_txt()
@@ -23,7 +24,10 @@ def compute_verification_stats(df):
     flat_df = flat_df.filter(col("category") == 'VERIFICATION')
     # Convert timestamp string to proper timestamp
     flat_df = flat_df.withColumn("timestamp", col("timestamp").cast("timestamp"))
-    
+
+    flat_df.toPandas().to_csv(r"src\python\data_files\flat_df.csv", index=False)
+
+
     # Token generation time
     token_time = flat_df.filter(col("action") == "TOKEN_GENERATED") \
                         .groupBy("email_id") \

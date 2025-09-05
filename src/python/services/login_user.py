@@ -29,7 +29,7 @@ def login_user(connection, mongo_connection):
         if is_verified != 1:
             cur.close()
             print("Error: Please verify your account before logging in.")
-            email_verification(connection,email)
+            email_verification(connection,mongo_connection,email)
             return
         
         for attempt in range(3):

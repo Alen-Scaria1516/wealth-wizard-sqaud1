@@ -60,7 +60,7 @@ with open("src\python\data_files/dummy_verification_logs.txt", "w") as f:
     f.write(json_util.dumps(dummy_logs, indent=2))   #handles datetime 
 
 #push dummy logs to mongodb using terminal
-#  mongoimport --db User_logs --collection logs --file dummy_verification_logs.txt --jsonArray
+
 
 ###################################################################################
 #Function for exporting logs from mongodb as text file 
