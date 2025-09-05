@@ -31,7 +31,7 @@ def forget_password(connection):
         
         # db_token, time_generated = row
         
-        for token_attempt in range(3):  
+        for token_attempt in range(2):  
             #Getting token from user 
             entered_token = input("Enter the token: ")  
             

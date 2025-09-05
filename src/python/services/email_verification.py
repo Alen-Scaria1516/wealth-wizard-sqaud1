@@ -9,8 +9,6 @@ def email_verification(connection, mongo_connection, email_id):
     client = mongo_connection
     db = client["User_logs"]
     logs_collection = db["logs"]
-    
-    #email_id = input("Enter your Email ID : ")
     try:
         cursor.execute(
         "Select is_verified from users WHERE email_id = :email_id",
@@ -32,7 +30,7 @@ def email_verification(connection, mongo_connection, email_id):
             send_verification_email(email_id, token_for_email, code=1)
 
             # Allow up to 3 attempts
-            for token_attempt in range(3):
+            for token_attempt in range(2):
                 input_token = input("Enter your verification token sent to your email : ")
 
                 # Validate the token
@@ -52,4 +50,4 @@ def email_verification(connection, mongo_connection, email_id):
                     if remaining >= 1:
                         print(f"Invalid token. You have {remaining} attempt(s) left. Please try again.")
                     else:
-                        print("Verification failed. Please restart the process.")
+                        print("Verification failed. Please login and try again.")

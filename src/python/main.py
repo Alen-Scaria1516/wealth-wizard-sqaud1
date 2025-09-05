@@ -9,7 +9,8 @@ def main_menu():
         print("\n=== Wealth Wizard Menu ===")
         print("1. Register")
         print("2. Login")
-        print("3. Exit")
+        print("3. Admin")
+        print("4. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
             successful_registration = register_user(connection, mongo_connection)
@@ -22,6 +23,8 @@ def main_menu():
             admin.admin_verification_stats()
 
         elif choice == "3":
+            admin.admin_verification_stats()
+        elif choice == "4":
             print("Exiting.")
             break
         else:
