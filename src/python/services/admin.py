@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 def setup_pyspark():
     export_logs_to_txt()
     spark = SparkSession.builder.appName("Project").getOrCreate()
-    df = spark.read.json(r"src\python\data_files\logs.txt")
+    df = spark.read.json(r"src\python\data_files\logs.json")
     return df
 #df.show()
 #df.printSchema()
@@ -253,7 +253,7 @@ def admin_verification_stats():
             df.sparkSession.stop()
         elif choice == "2":
             #login stats
-            compute_login_stats(".\src\python\data_files\logs.txt")
+            compute_login_stats(".\src\python\data_files\logs.json")
         elif choice == "3":
             #password reset 
             df = setup_pyspark()

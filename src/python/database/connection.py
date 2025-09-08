@@ -15,22 +15,22 @@ PWD = os.getenv("PWD")
 
 
 def get_connection():
-    # try:
-    #     dsn = oracledb.makedsn(HOST, PORT, service_name=SERVICE_NAME)
-    #     conn = oracledb.connect(user=USER, password=PWD, dsn=dsn)
-    #     return conn
-    # except Exception as e:
-    #     print("❌ Connection failed:", e)
     try:
-        conn = oracledb.connect(
-            user=DB_USER,
-            password=DB_PASSWORD,
-            dsn=DB_DSN
-        )
+        dsn = oracledb.makedsn(HOST, PORT, service_name=SERVICE_NAME)
+        conn = oracledb.connect(user=USER, password=PWD, dsn=dsn)
         return conn
     except Exception as e:
-        print("Database connection failed:", e)
-        return None
+        print("❌ Connection failed:", e)
+    # try:
+    #     conn = oracledb.connect(
+    #         user=DB_USER,
+    #         password=DB_PASSWORD,
+    #         dsn=DB_DSN
+    #     )
+    #     return conn
+    # except Exception as e:
+    #     print("Database connection failed:", e)
+    #     return None
     
 
 if __name__ =="__main__":
