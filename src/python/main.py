@@ -19,8 +19,6 @@ def main_menu():
                 login_user(connection, mongo_connection)
         elif choice == "2":
             login_user(connection, mongo_connection)
-        elif choice == "4":
-            admin.admin_verification_stats()
 
         elif choice == "3":
             admin.admin_verification_stats()

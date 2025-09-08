@@ -1,0 +1,5644 @@
+[
+  {
+    "email_id": "sxu8h@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.111",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-11T13:24:08.817Z"
+    }
+  },
+  {
+    "email_id": "sxu8h@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R001",
+      "age": 58,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-11T13:28:08.817Z"
+    }
+  },
+  {
+    "email_id": "l0o4yq@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.221",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-20T21:05:08.817Z"
+    }
+  },
+  {
+    "email_id": "l0o4yq@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R002",
+      "age": 36,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-20T21:07:08.817Z"
+    }
+  },
+  {
+    "email_id": "ny0bepge@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.64",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-17T01:09:08.817Z"
+    }
+  },
+  {
+    "email_id": "ny0bepge@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R003",
+      "age": 67,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-17T01:13:08.817Z"
+    }
+  },
+  {
+    "email_id": "lqmdwo@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.110",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-23T14:19:08.817Z"
+    }
+  },
+  {
+    "email_id": "lqmdwo@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R004",
+      "age": 43,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-23T14:21:08.817Z"
+    }
+  },
+  {
+    "email_id": "qy9tejfz41@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.147",
+      "status": "failed",
+      "failure_reason": "password_weak"
+    },
+    "timestamp": {
+      "$date": "2025-08-19T16:06:08.817Z"
+    }
+  },
+  {
+    "email_id": "9quv8zk589sl@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.81",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-03T14:30:08.817Z"
+    }
+  },
+  {
+    "email_id": "9quv8zk589sl@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R006",
+      "age": 66,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-03T14:31:08.817Z"
+    }
+  },
+  {
+    "email_id": "a2zzo842@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.155",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T15:06:08.817Z"
+    }
+  },
+  {
+    "email_id": "a2zzo842@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R007",
+      "age": 33,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T15:11:08.817Z"
+    }
+  },
+  {
+    "email_id": "d3awm1jk3tqh@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.150",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T09:44:08.817Z"
+    }
+  },
+  {
+    "email_id": "d3awm1jk3tqh@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R008",
+      "age": 31,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T09:47:08.817Z"
+    }
+  },
+  {
+    "email_id": "a4fqg4tt6ejn@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.120",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-31T08:44:08.817Z"
+    }
+  },
+  {
+    "email_id": "a4fqg4tt6ejn@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R009",
+      "age": 22,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-31T08:48:08.817Z"
+    }
+  },
+  {
+    "email_id": "rxb2c@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.1",
+      "status": "failed",
+      "failure_reason": "duplicate_email"
+    },
+    "timestamp": {
+      "$date": "2025-08-25T15:36:08.817Z"
+    }
+  },
+  {
+    "email_id": "r9qv8pym9c@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.88",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-13T11:51:08.817Z"
+    }
+  },
+  {
+    "email_id": "r9qv8pym9c@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R011",
+      "age": 32,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-13T11:52:08.817Z"
+    }
+  },
+  {
+    "email_id": "e77a29@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.45",
+      "status": "failed",
+      "failure_reason": "duplicate_email"
+    },
+    "timestamp": {
+      "$date": "2025-08-11T16:54:08.817Z"
+    }
+  },
+  {
+    "email_id": "c3q22viw3@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.10",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-11T07:02:08.817Z"
+    }
+  },
+  {
+    "email_id": "c3q22viw3@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R013",
+      "age": 53,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-11T07:04:08.817Z"
+    }
+  },
+  {
+    "email_id": "9wfg3@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.121",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-31T05:06:08.817Z"
+    }
+  },
+  {
+    "email_id": "9wfg3@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R014",
+      "age": 41,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-31T05:09:08.817Z"
+    }
+  },
+  {
+    "email_id": "wweyza@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.67",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-26T12:44:08.817Z"
+    }
+  },
+  {
+    "email_id": "wweyza@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R015",
+      "age": 56,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-26T12:47:08.817Z"
+    }
+  },
+  {
+    "email_id": "esjj0cm8wn5n@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.199",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-07T21:53:08.817Z"
+    }
+  },
+  {
+    "email_id": "esjj0cm8wn5n@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R016",
+      "age": 27,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-07T21:57:08.817Z"
+    }
+  },
+  {
+    "email_id": "p4i0qaz9@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.181",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-10T01:35:08.817Z"
+    }
+  },
+  {
+    "email_id": "p4i0qaz9@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R017",
+      "age": 40,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-10T01:40:08.817Z"
+    }
+  },
+  {
+    "email_id": "fntmr@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.3",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-06T23:30:08.817Z"
+    }
+  },
+  {
+    "email_id": "fntmr@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R018",
+      "age": 39,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-06T23:32:08.817Z"
+    }
+  },
+  {
+    "email_id": "7bfrb27h@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.209",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-28T05:16:08.817Z"
+    }
+  },
+  {
+    "email_id": "7bfrb27h@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R019",
+      "age": 55,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-28T05:20:08.817Z"
+    }
+  },
+  {
+    "email_id": "lu4038dfrpfw@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.62",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T22:20:08.817Z"
+    }
+  },
+  {
+    "email_id": "lu4038dfrpfw@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R020",
+      "age": 61,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T22:21:08.817Z"
+    }
+  },
+  {
+    "email_id": "93lq14yvhsc@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.169",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-01T13:24:08.817Z"
+    }
+  },
+  {
+    "email_id": "93lq14yvhsc@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R021",
+      "age": 63,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-01T13:29:08.817Z"
+    }
+  },
+  {
+    "email_id": "vg0oqz@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.185",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-06T23:03:08.817Z"
+    }
+  },
+  {
+    "email_id": "vg0oqz@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R022",
+      "age": 59,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-06T23:07:08.817Z"
+    }
+  },
+  {
+    "email_id": "8rqfi@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.3",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-31T01:36:08.817Z"
+    }
+  },
+  {
+    "email_id": "8rqfi@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R023",
+      "age": 65,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-31T01:41:08.817Z"
+    }
+  },
+  {
+    "email_id": "43kq7sn29zq@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.228",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-18T10:00:08.817Z"
+    }
+  },
+  {
+    "email_id": "43kq7sn29zq@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R024",
+      "age": 67,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-18T10:04:08.817Z"
+    }
+  },
+  {
+    "email_id": "daoh8r2tzvh@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.233",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-24T04:16:08.817Z"
+    }
+  },
+  {
+    "email_id": "daoh8r2tzvh@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R025",
+      "age": 73,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-24T04:18:08.817Z"
+    }
+  },
+  {
+    "email_id": "utljnv@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.75",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-10T23:37:08.817Z"
+    }
+  },
+  {
+    "email_id": "utljnv@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R026",
+      "age": 52,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-10T23:42:08.817Z"
+    }
+  },
+  {
+    "email_id": "8efe0v9g@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.109",
+      "status": "failed",
+      "failure_reason": "server_error"
+    },
+    "timestamp": {
+      "$date": "2025-06-11T08:45:08.817Z"
+    }
+  },
+  {
+    "email_id": "ri5z4kluj10@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.24",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-07T12:29:08.817Z"
+    }
+  },
+  {
+    "email_id": "ri5z4kluj10@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R028",
+      "age": 54,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-07T12:30:08.817Z"
+    }
+  },
+  {
+    "email_id": "wrpvshe@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.202",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-20T21:41:08.817Z"
+    }
+  },
+  {
+    "email_id": "wrpvshe@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R029",
+      "age": 58,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-20T21:43:08.817Z"
+    }
+  },
+  {
+    "email_id": "wo3103e@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.171",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-28T08:29:08.817Z"
+    }
+  },
+  {
+    "email_id": "wo3103e@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R030",
+      "age": 39,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-28T08:34:08.817Z"
+    }
+  },
+  {
+    "email_id": "sqnizq3pcz5v@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.161",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T11:14:08.817Z"
+    }
+  },
+  {
+    "email_id": "sqnizq3pcz5v@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R031",
+      "age": 22,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-04T11:16:08.817Z"
+    }
+  },
+  {
+    "email_id": "l77ozur6q2@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.122",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-26T02:56:08.817Z"
+    }
+  },
+  {
+    "email_id": "l77ozur6q2@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R032",
+      "age": 67,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-26T03:00:08.817Z"
+    }
+  },
+  {
+    "email_id": "u2884m@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.237",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-11T21:53:08.817Z"
+    }
+  },
+  {
+    "email_id": "u2884m@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R033",
+      "age": 72,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-11T21:58:08.817Z"
+    }
+  },
+  {
+    "email_id": "bckb47rf@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.184",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-11T08:32:08.817Z"
+    }
+  },
+  {
+    "email_id": "bckb47rf@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R034",
+      "age": 39,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-11T08:37:08.817Z"
+    }
+  },
+  {
+    "email_id": "f4lnb@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.118",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-13T09:18:08.817Z"
+    }
+  },
+  {
+    "email_id": "f4lnb@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R035",
+      "age": 23,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-13T09:21:08.817Z"
+    }
+  },
+  {
+    "email_id": "9r9zaxdrgi7l@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.247",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-17T10:06:08.817Z"
+    }
+  },
+  {
+    "email_id": "9r9zaxdrgi7l@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R036",
+      "age": 51,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-17T10:09:08.817Z"
+    }
+  },
+  {
+    "email_id": "tyrrt1y6f2ys@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.155",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-22T18:20:08.817Z"
+    }
+  },
+  {
+    "email_id": "tyrrt1y6f2ys@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R037",
+      "age": 24,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-22T18:24:08.817Z"
+    }
+  },
+  {
+    "email_id": "w7v7i8@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.252",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-15T00:13:08.817Z"
+    }
+  },
+  {
+    "email_id": "w7v7i8@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R038",
+      "age": 60,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-15T00:17:08.817Z"
+    }
+  },
+  {
+    "email_id": "r33d9jkbkncr@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.230",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-24T21:55:08.817Z"
+    }
+  },
+  {
+    "email_id": "r33d9jkbkncr@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R039",
+      "age": 28,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-24T22:00:08.817Z"
+    }
+  },
+  {
+    "email_id": "6lns8xwceuzb@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.12",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T09:24:08.817Z"
+    }
+  },
+  {
+    "email_id": "6lns8xwceuzb@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R040",
+      "age": 26,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T09:28:08.817Z"
+    }
+  },
+  {
+    "email_id": "blkst49wbfpn@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.76",
+      "status": "failed",
+      "failure_reason": "invalid_email"
+    },
+    "timestamp": {
+      "$date": "2025-07-24T21:58:08.817Z"
+    }
+  },
+  {
+    "email_id": "3yz40dp9593@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.104",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-07T22:26:08.817Z"
+    }
+  },
+  {
+    "email_id": "3yz40dp9593@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R042",
+      "age": 28,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-07T22:29:08.817Z"
+    }
+  },
+  {
+    "email_id": "2ra4n@aol.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.220",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-18T20:20:08.817Z"
+    }
+  },
+  {
+    "email_id": "2ra4n@aol.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R043",
+      "age": 63,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-18T20:25:08.817Z"
+    }
+  },
+  {
+    "email_id": "3ncxr547@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.48",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-24T09:30:08.817Z"
+    }
+  },
+  {
+    "email_id": "3ncxr547@hotmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R044",
+      "age": 20,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-24T09:32:08.817Z"
+    }
+  },
+  {
+    "email_id": "4y20k6gz@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.207",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-22T05:57:08.817Z"
+    }
+  },
+  {
+    "email_id": "4y20k6gz@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R045",
+      "age": 44,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-22T05:59:08.817Z"
+    }
+  },
+  {
+    "email_id": "981is53sqib@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.75",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-26T11:07:08.817Z"
+    }
+  },
+  {
+    "email_id": "981is53sqib@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R046",
+      "age": 53,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-26T11:09:08.817Z"
+    }
+  },
+  {
+    "email_id": "no6phyltah@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.175",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-27T16:43:08.817Z"
+    }
+  },
+  {
+    "email_id": "no6phyltah@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R047",
+      "age": 26,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-27T16:47:08.817Z"
+    }
+  },
+  {
+    "email_id": "bfq8kwdje3g3@gmail.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.125",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-08-02T08:31:08.817Z"
+    }
+  },
+  {
+    "email_id": "bfq8kwdje3g3@gmail.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R048",
+      "age": 44,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-08-02T08:34:08.817Z"
+    }
+  },
+  {
+    "email_id": "aorcup5ymqj@outlook.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.82",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-06-10T18:55:08.817Z"
+    }
+  },
+  {
+    "email_id": "aorcup5ymqj@outlook.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R049",
+      "age": 23,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-06-10T18:58:08.817Z"
+    }
+  },
+  {
+    "email_id": "dlchh@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "ip_address": "192.168.1.181",
+      "status": "initiated"
+    },
+    "timestamp": {
+      "$date": "2025-07-05T08:19:08.817Z"
+    }
+  },
+  {
+    "email_id": "dlchh@yahoo.com",
+    "category": "REGISTRATION",
+    "action": "REGISTERED",
+    "details": {
+      "reg_id": "R050",
+      "age": 42,
+      "status": "success"
+    },
+    "timestamp": {
+      "$date": "2025-07-05T08:22:08.817Z"
+    }
+  },
+  {
+    "email_id": "user153@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 1,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-04-03T14:23:30.817Z"
+    }
+  },
+  {
+    "email_id": "user174@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 2,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-08-25T18:59:56.817Z"
+    }
+  },
+  {
+    "email_id": "user176@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 3,
+      "status": true,
+      "token": "BNSWLS"
+    },
+    "timestamp": {
+      "$date": "2025-05-21T06:35:01.817Z"
+    }
+  },
+  {
+    "email_id": "user194@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 4,
+      "status": true,
+      "token": "W0KXWK"
+    },
+    "timestamp": {
+      "$date": "2025-06-22T01:16:40.817Z"
+    }
+  },
+  {
+    "email_id": "user130@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 5,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-05-30T08:22:46.817Z"
+    }
+  },
+  {
+    "email_id": "user159@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 6,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-04-28T15:00:32.817Z"
+    }
+  },
+  {
+    "email_id": "user136@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 7,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-08-01T14:51:25.817Z"
+    }
+  },
+  {
+    "email_id": "user143@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 8,
+      "status": false,
+      "reason": "unregistered"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T01:46:34.817Z"
+    }
+  },
+  {
+    "email_id": "user107@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 9,
+      "status": true,
+      "token": "1QMMRS"
+    },
+    "timestamp": {
+      "$date": "2025-06-04T10:16:05.817Z"
+    }
+  },
+  {
+    "email_id": "user181@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 10,
+      "status": true,
+      "token": "A8R5RH"
+    },
+    "timestamp": {
+      "$date": "2025-05-20T12:45:47.817Z"
+    }
+  },
+  {
+    "email_id": "user170@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 11,
+      "status": true,
+      "token": "JYGLAS"
+    },
+    "timestamp": {
+      "$date": "2025-03-27T01:59:33.817Z"
+    }
+  },
+  {
+    "email_id": "user126@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 12,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-09-03T07:44:28.817Z"
+    }
+  },
+  {
+    "email_id": "user182@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 13,
+      "status": true,
+      "token": "EIE091"
+    },
+    "timestamp": {
+      "$date": "2025-03-27T04:21:48.817Z"
+    }
+  },
+  {
+    "email_id": "user117@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 14,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-04-24T06:42:52.817Z"
+    }
+  },
+  {
+    "email_id": "user165@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 15,
+      "status": true,
+      "token": "QHJQW6"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T13:26:33.817Z"
+    }
+  },
+  {
+    "email_id": "user129@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 16,
+      "status": true,
+      "token": "SP1JVY"
+    },
+    "timestamp": {
+      "$date": "2025-03-28T02:31:07.817Z"
+    }
+  },
+  {
+    "email_id": "user181@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 17,
+      "status": true,
+      "token": "W9KVJJ"
+    },
+    "timestamp": {
+      "$date": "2025-05-17T16:54:50.817Z"
+    }
+  },
+  {
+    "email_id": "user110@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 18,
+      "status": true,
+      "token": "KK9S4A"
+    },
+    "timestamp": {
+      "$date": "2025-07-27T20:08:05.817Z"
+    }
+  },
+  {
+    "email_id": "user175@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 19,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-05-08T01:30:06.817Z"
+    }
+  },
+  {
+    "email_id": "user105@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 20,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-07-16T01:29:03.817Z"
+    }
+  },
+  {
+    "email_id": "user139@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 21,
+      "status": true,
+      "token": "IK861O"
+    },
+    "timestamp": {
+      "$date": "2025-08-31T13:48:51.817Z"
+    }
+  },
+  {
+    "email_id": "user148@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 22,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-08-01T18:21:33.817Z"
+    }
+  },
+  {
+    "email_id": "user170@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 23,
+      "status": true,
+      "token": "AFXGIL"
+    },
+    "timestamp": {
+      "$date": "2025-04-02T23:01:40.817Z"
+    }
+  },
+  {
+    "email_id": "user174@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 24,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-03-09T17:51:05.817Z"
+    }
+  },
+  {
+    "email_id": "user124@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 25,
+      "status": true,
+      "token": "KYZTVI"
+    },
+    "timestamp": {
+      "$date": "2025-07-17T09:40:26.817Z"
+    }
+  },
+  {
+    "email_id": "user166@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 26,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-06-28T12:48:19.817Z"
+    }
+  },
+  {
+    "email_id": "user197@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 27,
+      "status": true,
+      "token": "5QXIXL"
+    },
+    "timestamp": {
+      "$date": "2025-03-23T00:21:00.817Z"
+    }
+  },
+  {
+    "email_id": "user172@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 28,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-05-16T12:25:50.817Z"
+    }
+  },
+  {
+    "email_id": "user102@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 29,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-07-26T14:16:34.817Z"
+    }
+  },
+  {
+    "email_id": "user127@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 30,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-03-10T04:50:13.817Z"
+    }
+  },
+  {
+    "email_id": "user157@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 31,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-08-01T10:13:19.817Z"
+    }
+  },
+  {
+    "email_id": "user134@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 32,
+      "status": true,
+      "token": "GD7ZLA"
+    },
+    "timestamp": {
+      "$date": "2025-05-06T05:56:07.817Z"
+    }
+  },
+  {
+    "email_id": "user139@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 33,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-05-08T19:33:29.817Z"
+    }
+  },
+  {
+    "email_id": "user197@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 34,
+      "status": false,
+      "reason": "invalid_password"
+    },
+    "timestamp": {
+      "$date": "2025-07-07T17:11:08.817Z"
+    }
+  },
+  {
+    "email_id": "user139@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 35,
+      "status": false,
+      "reason": "unregistered"
+    },
+    "timestamp": {
+      "$date": "2025-08-08T19:53:53.817Z"
+    }
+  },
+  {
+    "email_id": "user164@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 36,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-08-29T23:05:21.817Z"
+    }
+  },
+  {
+    "email_id": "user185@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 37,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-07-18T06:10:31.817Z"
+    }
+  },
+  {
+    "email_id": "user186@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 38,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-08-08T01:01:55.817Z"
+    }
+  },
+  {
+    "email_id": "user101@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 39,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-05-12T23:02:55.817Z"
+    }
+  },
+  {
+    "email_id": "user170@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 40,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-06-04T09:15:48.817Z"
+    }
+  },
+  {
+    "email_id": "user200@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 41,
+      "status": true,
+      "token": "4SNHKA"
+    },
+    "timestamp": {
+      "$date": "2025-04-08T14:30:10.817Z"
+    }
+  },
+  {
+    "email_id": "user164@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 42,
+      "status": true,
+      "token": "M3VCGA"
+    },
+    "timestamp": {
+      "$date": "2025-08-09T10:32:31.817Z"
+    }
+  },
+  {
+    "email_id": "user141@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 43,
+      "status": true,
+      "token": "VJCOGN"
+    },
+    "timestamp": {
+      "$date": "2025-08-07T18:45:02.817Z"
+    }
+  },
+  {
+    "email_id": "user194@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 44,
+      "status": true,
+      "token": "G4P3O3"
+    },
+    "timestamp": {
+      "$date": "2025-07-17T13:07:07.817Z"
+    }
+  },
+  {
+    "email_id": "user167@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 45,
+      "status": true,
+      "token": "24DD9L"
+    },
+    "timestamp": {
+      "$date": "2025-06-13T06:25:15.817Z"
+    }
+  },
+  {
+    "email_id": "user124@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 46,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-04-23T01:08:23.817Z"
+    }
+  },
+  {
+    "email_id": "user106@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 47,
+      "status": true,
+      "token": "LJ69M8"
+    },
+    "timestamp": {
+      "$date": "2025-04-30T15:58:48.817Z"
+    }
+  },
+  {
+    "email_id": "user157@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 48,
+      "status": true,
+      "token": "0FXKV8"
+    },
+    "timestamp": {
+      "$date": "2025-03-22T06:29:34.817Z"
+    }
+  },
+  {
+    "email_id": "user100@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 49,
+      "status": true,
+      "token": "XSUKOZ"
+    },
+    "timestamp": {
+      "$date": "2025-07-10T10:31:29.817Z"
+    }
+  },
+  {
+    "email_id": "user131@gmail.com",
+    "category": "LOGIN",
+    "action": "LOGIN",
+    "details": {
+      "attempt_number": 50,
+      "status": false,
+      "reason": "unverified"
+    },
+    "timestamp": {
+      "$date": "2025-04-25T03:01:13.817Z"
+    }
+  },
+  {
+    "email_id": "username0@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "657675"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:08.818Z"
+    }
+  },
+  {
+    "email_id": "username0@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "884925",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:28.818Z"
+    }
+  },
+  {
+    "email_id": "username0@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "657675",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:48.818Z"
+    }
+  },
+  {
+    "email_id": "username1@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "247607"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:38.818Z"
+    }
+  },
+  {
+    "email_id": "username1@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "193786",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:58.818Z"
+    }
+  },
+  {
+    "email_id": "username1@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "174000",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:18.818Z"
+    }
+  },
+  {
+    "email_id": "username1@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "014470",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:38.818Z"
+    }
+  },
+  {
+    "email_id": "username2@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "918552"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:08.818Z"
+    }
+  },
+  {
+    "email_id": "username2@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "485632",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:28.818Z"
+    }
+  },
+  {
+    "email_id": "username2@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "801505",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:48.818Z"
+    }
+  },
+  {
+    "email_id": "username2@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "151317",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:08.818Z"
+    }
+  },
+  {
+    "email_id": "username3@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "974993"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:38.818Z"
+    }
+  },
+  {
+    "email_id": "username3@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "931875",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:58.818Z"
+    }
+  },
+  {
+    "email_id": "username3@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "974993",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:18.818Z"
+    }
+  },
+  {
+    "email_id": "username4@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "791381"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:08.818Z"
+    }
+  },
+  {
+    "email_id": "username4@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "791381",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:28.818Z"
+    }
+  },
+  {
+    "email_id": "username5@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "172427"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:38.818Z"
+    }
+  },
+  {
+    "email_id": "username5@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "172427",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:58.818Z"
+    }
+  },
+  {
+    "email_id": "username6@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "465520"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:08.818Z"
+    }
+  },
+  {
+    "email_id": "username6@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "371192",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:28.818Z"
+    }
+  },
+  {
+    "email_id": "username6@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "465520",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:48.818Z"
+    }
+  },
+  {
+    "email_id": "username7@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "768406"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:38.818Z"
+    }
+  },
+  {
+    "email_id": "username7@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "768406",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:58.818Z"
+    }
+  },
+  {
+    "email_id": "username8@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "619732"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:08.818Z"
+    }
+  },
+  {
+    "email_id": "username8@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "619732",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:28.818Z"
+    }
+  },
+  {
+    "email_id": "username9@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "900553"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:38.818Z"
+    }
+  },
+  {
+    "email_id": "username9@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "871495",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:58.818Z"
+    }
+  },
+  {
+    "email_id": "username9@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "737977",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:18.818Z"
+    }
+  },
+  {
+    "email_id": "username9@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "631153",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:38.818Z"
+    }
+  },
+  {
+    "email_id": "username10@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "129621"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:08.818Z"
+    }
+  },
+  {
+    "email_id": "username10@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "526840",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:28.818Z"
+    }
+  },
+  {
+    "email_id": "username10@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "906357",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:48.818Z"
+    }
+  },
+  {
+    "email_id": "username10@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "129621",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:08.818Z"
+    }
+  },
+  {
+    "email_id": "username11@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "416148"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:38.818Z"
+    }
+  },
+  {
+    "email_id": "username11@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "416148",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:58.818Z"
+    }
+  },
+  {
+    "email_id": "username12@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "794326"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:08.818Z"
+    }
+  },
+  {
+    "email_id": "username12@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "794326",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:28.818Z"
+    }
+  },
+  {
+    "email_id": "username13@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "236583"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:38.818Z"
+    }
+  },
+  {
+    "email_id": "username13@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "925642",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:58.818Z"
+    }
+  },
+  {
+    "email_id": "username13@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "236583",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:18.818Z"
+    }
+  },
+  {
+    "email_id": "username14@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "921533"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:08.818Z"
+    }
+  },
+  {
+    "email_id": "username14@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "921533",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:28.818Z"
+    }
+  },
+  {
+    "email_id": "username15@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "833467"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:38.818Z"
+    }
+  },
+  {
+    "email_id": "username15@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "833467",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:58.818Z"
+    }
+  },
+  {
+    "email_id": "username16@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "631216"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:08.818Z"
+    }
+  },
+  {
+    "email_id": "username16@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "984753",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:28.818Z"
+    }
+  },
+  {
+    "email_id": "username16@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "631216",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:48.818Z"
+    }
+  },
+  {
+    "email_id": "username17@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "835470"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:38.818Z"
+    }
+  },
+  {
+    "email_id": "username17@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "835470",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:58.818Z"
+    }
+  },
+  {
+    "email_id": "username18@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "441345"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:08.818Z"
+    }
+  },
+  {
+    "email_id": "username18@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "863609",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:28.818Z"
+    }
+  },
+  {
+    "email_id": "username18@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "564027",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:48.818Z"
+    }
+  },
+  {
+    "email_id": "username18@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "441345",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:08.818Z"
+    }
+  },
+  {
+    "email_id": "username19@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "023221"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:38.818Z"
+    }
+  },
+  {
+    "email_id": "username19@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "533814",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:58.818Z"
+    }
+  },
+  {
+    "email_id": "username19@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "675226",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:18.818Z"
+    }
+  },
+  {
+    "email_id": "username19@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "023221",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:38.818Z"
+    }
+  },
+  {
+    "email_id": "username20@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "184139"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:08.818Z"
+    }
+  },
+  {
+    "email_id": "username20@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "437465",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:28.818Z"
+    }
+  },
+  {
+    "email_id": "username20@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "184139",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:48.818Z"
+    }
+  },
+  {
+    "email_id": "username21@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "992189"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:38.818Z"
+    }
+  },
+  {
+    "email_id": "username21@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "766774",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:58.818Z"
+    }
+  },
+  {
+    "email_id": "username21@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "140458",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:18.818Z"
+    }
+  },
+  {
+    "email_id": "username21@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "992189",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:38.818Z"
+    }
+  },
+  {
+    "email_id": "username22@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "330293"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:08.818Z"
+    }
+  },
+  {
+    "email_id": "username22@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "330293",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:28.818Z"
+    }
+  },
+  {
+    "email_id": "username23@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "506161"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:38.818Z"
+    }
+  },
+  {
+    "email_id": "username23@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "506161",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:58.818Z"
+    }
+  },
+  {
+    "email_id": "username24@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "421094"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:08.818Z"
+    }
+  },
+  {
+    "email_id": "username24@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "609812",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:28.818Z"
+    }
+  },
+  {
+    "email_id": "username24@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "424865",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:48.818Z"
+    }
+  },
+  {
+    "email_id": "username24@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "421094",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:08.818Z"
+    }
+  },
+  {
+    "email_id": "username25@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "553685"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:38.818Z"
+    }
+  },
+  {
+    "email_id": "username25@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "938983",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:58.818Z"
+    }
+  },
+  {
+    "email_id": "username25@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "315501",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:18.818Z"
+    }
+  },
+  {
+    "email_id": "username25@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "553685",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:38.818Z"
+    }
+  },
+  {
+    "email_id": "username26@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "010109"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:08.818Z"
+    }
+  },
+  {
+    "email_id": "username26@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "229654",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:28.818Z"
+    }
+  },
+  {
+    "email_id": "username26@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "010109",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:48.818Z"
+    }
+  },
+  {
+    "email_id": "username27@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "871666"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:38.818Z"
+    }
+  },
+  {
+    "email_id": "username27@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "959753",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:58.818Z"
+    }
+  },
+  {
+    "email_id": "username27@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "871666",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:18.818Z"
+    }
+  },
+  {
+    "email_id": "username28@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "783181"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:08.818Z"
+    }
+  },
+  {
+    "email_id": "username28@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "783181",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:28.818Z"
+    }
+  },
+  {
+    "email_id": "username29@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "158878"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:38.818Z"
+    }
+  },
+  {
+    "email_id": "username29@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "881150",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:58.818Z"
+    }
+  },
+  {
+    "email_id": "username29@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "434831",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:18.818Z"
+    }
+  },
+  {
+    "email_id": "username29@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "158878",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:38.818Z"
+    }
+  },
+  {
+    "email_id": "username30@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "533931"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:08.818Z"
+    }
+  },
+  {
+    "email_id": "username30@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "456721",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:28.818Z"
+    }
+  },
+  {
+    "email_id": "username30@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "533931",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:48.818Z"
+    }
+  },
+  {
+    "email_id": "username31@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "172234"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:38.818Z"
+    }
+  },
+  {
+    "email_id": "username31@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "058279",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:58.818Z"
+    }
+  },
+  {
+    "email_id": "username31@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "079588",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:18.818Z"
+    }
+  },
+  {
+    "email_id": "username31@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "563358",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:38.818Z"
+    }
+  },
+  {
+    "email_id": "username32@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "995174"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:08.818Z"
+    }
+  },
+  {
+    "email_id": "username32@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "995174",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:28.818Z"
+    }
+  },
+  {
+    "email_id": "username33@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "775975"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:38.818Z"
+    }
+  },
+  {
+    "email_id": "username33@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "168900",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:58.818Z"
+    }
+  },
+  {
+    "email_id": "username33@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "775975",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:18.818Z"
+    }
+  },
+  {
+    "email_id": "username34@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "207741"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:08.818Z"
+    }
+  },
+  {
+    "email_id": "username34@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "895213",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:28.818Z"
+    }
+  },
+  {
+    "email_id": "username34@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "199645",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:48.818Z"
+    }
+  },
+  {
+    "email_id": "username34@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "614566",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:08.818Z"
+    }
+  },
+  {
+    "email_id": "username35@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "291616"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:38.818Z"
+    }
+  },
+  {
+    "email_id": "username35@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "326669",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:58.818Z"
+    }
+  },
+  {
+    "email_id": "username35@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "140584",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:18.818Z"
+    }
+  },
+  {
+    "email_id": "username35@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "291616",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:38.818Z"
+    }
+  },
+  {
+    "email_id": "username36@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "945626"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:08.818Z"
+    }
+  },
+  {
+    "email_id": "username36@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "483169",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:28.818Z"
+    }
+  },
+  {
+    "email_id": "username36@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "337857",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:48.818Z"
+    }
+  },
+  {
+    "email_id": "username36@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "448706",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:08.818Z"
+    }
+  },
+  {
+    "email_id": "username37@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "184414"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:38.818Z"
+    }
+  },
+  {
+    "email_id": "username37@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "728806",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:58.818Z"
+    }
+  },
+  {
+    "email_id": "username37@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "227482",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:18.818Z"
+    }
+  },
+  {
+    "email_id": "username37@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "868151",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:38.818Z"
+    }
+  },
+  {
+    "email_id": "username38@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "196736"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:08.818Z"
+    }
+  },
+  {
+    "email_id": "username38@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "196736",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:28.818Z"
+    }
+  },
+  {
+    "email_id": "username39@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "400413"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:38.818Z"
+    }
+  },
+  {
+    "email_id": "username39@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "794038",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:58.818Z"
+    }
+  },
+  {
+    "email_id": "username39@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "400413",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:18.818Z"
+    }
+  },
+  {
+    "email_id": "username40@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "239930"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:08.818Z"
+    }
+  },
+  {
+    "email_id": "username40@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "656985",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:28.818Z"
+    }
+  },
+  {
+    "email_id": "username40@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "222023",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:48.818Z"
+    }
+  },
+  {
+    "email_id": "username40@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "239930",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:08.818Z"
+    }
+  },
+  {
+    "email_id": "username41@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "146977"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:38.818Z"
+    }
+  },
+  {
+    "email_id": "username41@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "070214",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:58.818Z"
+    }
+  },
+  {
+    "email_id": "username41@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "717322",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:18.818Z"
+    }
+  },
+  {
+    "email_id": "username41@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "146977",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:38.818Z"
+    }
+  },
+  {
+    "email_id": "username42@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "088466"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:08.818Z"
+    }
+  },
+  {
+    "email_id": "username42@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "696744",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:28.818Z"
+    }
+  },
+  {
+    "email_id": "username42@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "088466",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:48.818Z"
+    }
+  },
+  {
+    "email_id": "username43@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "071599"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:38.818Z"
+    }
+  },
+  {
+    "email_id": "username43@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "384266",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:58.818Z"
+    }
+  },
+  {
+    "email_id": "username43@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "071599",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:18.818Z"
+    }
+  },
+  {
+    "email_id": "username44@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "148706"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:08.818Z"
+    }
+  },
+  {
+    "email_id": "username44@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "148706",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:28.818Z"
+    }
+  },
+  {
+    "email_id": "username45@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "519027"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:38.818Z"
+    }
+  },
+  {
+    "email_id": "username45@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "780501",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:58.818Z"
+    }
+  },
+  {
+    "email_id": "username45@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "279371",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:18.818Z"
+    }
+  },
+  {
+    "email_id": "username45@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "519027",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:38.818Z"
+    }
+  },
+  {
+    "email_id": "username46@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "908819"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:08.818Z"
+    }
+  },
+  {
+    "email_id": "username46@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "908819",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:28.818Z"
+    }
+  },
+  {
+    "email_id": "username47@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "626335"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:38.818Z"
+    }
+  },
+  {
+    "email_id": "username47@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "821525",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:58.818Z"
+    }
+  },
+  {
+    "email_id": "username47@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "626335",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:18.818Z"
+    }
+  },
+  {
+    "email_id": "username48@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "093153"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:08.818Z"
+    }
+  },
+  {
+    "email_id": "username48@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "916915",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:28.818Z"
+    }
+  },
+  {
+    "email_id": "username48@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "093153",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:48.818Z"
+    }
+  },
+  {
+    "email_id": "username49@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "254483"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:38.818Z"
+    }
+  },
+  {
+    "email_id": "username49@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "449915",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:58.818Z"
+    }
+  },
+  {
+    "email_id": "username49@dummy.com",
+    "category": "PASSWORD_RESET",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "254483",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:40:18.818Z"
+    }
+  },
+  {
+    "email_id": "user0@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "569497"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:08.818Z"
+    }
+  },
+  {
+    "email_id": "user0@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "569497",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:28.818Z"
+    }
+  },
+  {
+    "email_id": "user1@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "763874"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:38.818Z"
+    }
+  },
+  {
+    "email_id": "user1@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "244370",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:15:58.818Z"
+    }
+  },
+  {
+    "email_id": "user1@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "763874",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:18.818Z"
+    }
+  },
+  {
+    "email_id": "user2@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "558831"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:08.818Z"
+    }
+  },
+  {
+    "email_id": "user2@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "952771",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:28.818Z"
+    }
+  },
+  {
+    "email_id": "user2@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "558831",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:48.818Z"
+    }
+  },
+  {
+    "email_id": "user3@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "233964"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:38.818Z"
+    }
+  },
+  {
+    "email_id": "user3@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "233964",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:16:58.818Z"
+    }
+  },
+  {
+    "email_id": "user4@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "974998"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:08.818Z"
+    }
+  },
+  {
+    "email_id": "user4@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "974998",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:28.818Z"
+    }
+  },
+  {
+    "email_id": "user5@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "621849"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:38.818Z"
+    }
+  },
+  {
+    "email_id": "user5@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "452342",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:17:58.818Z"
+    }
+  },
+  {
+    "email_id": "user5@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "144868",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:18.818Z"
+    }
+  },
+  {
+    "email_id": "user5@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "621849",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:38.818Z"
+    }
+  },
+  {
+    "email_id": "user6@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "177234"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:08.818Z"
+    }
+  },
+  {
+    "email_id": "user6@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "177234",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:28.818Z"
+    }
+  },
+  {
+    "email_id": "user7@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "239797"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:38.818Z"
+    }
+  },
+  {
+    "email_id": "user7@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "764039",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:18:58.818Z"
+    }
+  },
+  {
+    "email_id": "user7@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "239797",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:18.818Z"
+    }
+  },
+  {
+    "email_id": "user8@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "143456"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:08.818Z"
+    }
+  },
+  {
+    "email_id": "user8@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "087118",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:28.818Z"
+    }
+  },
+  {
+    "email_id": "user8@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "683584",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:48.818Z"
+    }
+  },
+  {
+    "email_id": "user8@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "009169",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:08.818Z"
+    }
+  },
+  {
+    "email_id": "user9@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "898007"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:38.818Z"
+    }
+  },
+  {
+    "email_id": "user9@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "064452",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:19:58.818Z"
+    }
+  },
+  {
+    "email_id": "user9@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "979692",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:18.818Z"
+    }
+  },
+  {
+    "email_id": "user9@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "978280",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:38.818Z"
+    }
+  },
+  {
+    "email_id": "user10@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "095810"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:08.818Z"
+    }
+  },
+  {
+    "email_id": "user10@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "417250",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:28.818Z"
+    }
+  },
+  {
+    "email_id": "user10@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "705376",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:48.818Z"
+    }
+  },
+  {
+    "email_id": "user10@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "449884",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:08.818Z"
+    }
+  },
+  {
+    "email_id": "user11@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "355030"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:38.818Z"
+    }
+  },
+  {
+    "email_id": "user11@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "128474",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:20:58.818Z"
+    }
+  },
+  {
+    "email_id": "user11@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "355030",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:18.818Z"
+    }
+  },
+  {
+    "email_id": "user12@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "100200"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:08.818Z"
+    }
+  },
+  {
+    "email_id": "user12@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "628592",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:28.818Z"
+    }
+  },
+  {
+    "email_id": "user12@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "100200",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:48.818Z"
+    }
+  },
+  {
+    "email_id": "user13@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "156721"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:38.818Z"
+    }
+  },
+  {
+    "email_id": "user13@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "944922",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:21:58.818Z"
+    }
+  },
+  {
+    "email_id": "user13@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "964586",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:18.818Z"
+    }
+  },
+  {
+    "email_id": "user13@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "086688",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:38.818Z"
+    }
+  },
+  {
+    "email_id": "user14@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "149046"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:08.818Z"
+    }
+  },
+  {
+    "email_id": "user14@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "149046",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:28.818Z"
+    }
+  },
+  {
+    "email_id": "user15@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "516468"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:38.818Z"
+    }
+  },
+  {
+    "email_id": "user15@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "526920",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:22:58.818Z"
+    }
+  },
+  {
+    "email_id": "user15@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "576377",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:18.818Z"
+    }
+  },
+  {
+    "email_id": "user15@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "516468",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:38.818Z"
+    }
+  },
+  {
+    "email_id": "user16@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "579829"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:08.818Z"
+    }
+  },
+  {
+    "email_id": "user16@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "170560",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:28.818Z"
+    }
+  },
+  {
+    "email_id": "user16@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "579829",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:48.818Z"
+    }
+  },
+  {
+    "email_id": "user17@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "049657"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:38.818Z"
+    }
+  },
+  {
+    "email_id": "user17@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "587682",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:23:58.818Z"
+    }
+  },
+  {
+    "email_id": "user17@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "273546",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:18.818Z"
+    }
+  },
+  {
+    "email_id": "user17@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "673268",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:38.818Z"
+    }
+  },
+  {
+    "email_id": "user18@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "458736"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:08.818Z"
+    }
+  },
+  {
+    "email_id": "user18@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "458736",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:28.818Z"
+    }
+  },
+  {
+    "email_id": "user19@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "728807"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:38.818Z"
+    }
+  },
+  {
+    "email_id": "user19@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "126202",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:24:58.818Z"
+    }
+  },
+  {
+    "email_id": "user19@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "451583",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:18.818Z"
+    }
+  },
+  {
+    "email_id": "user19@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "728807",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:38.818Z"
+    }
+  },
+  {
+    "email_id": "user20@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "973486"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:08.818Z"
+    }
+  },
+  {
+    "email_id": "user20@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "973486",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:28.818Z"
+    }
+  },
+  {
+    "email_id": "user21@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "872333"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:38.818Z"
+    }
+  },
+  {
+    "email_id": "user21@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "830180",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:25:58.818Z"
+    }
+  },
+  {
+    "email_id": "user21@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "872333",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:18.818Z"
+    }
+  },
+  {
+    "email_id": "user22@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "874960"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:08.818Z"
+    }
+  },
+  {
+    "email_id": "user22@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "997661",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:28.818Z"
+    }
+  },
+  {
+    "email_id": "user22@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "617043",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:48.818Z"
+    }
+  },
+  {
+    "email_id": "user22@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "839369",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:08.818Z"
+    }
+  },
+  {
+    "email_id": "user23@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "733897"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:38.818Z"
+    }
+  },
+  {
+    "email_id": "user23@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "938228",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:26:58.818Z"
+    }
+  },
+  {
+    "email_id": "user23@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "600313",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:18.818Z"
+    }
+  },
+  {
+    "email_id": "user23@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "507431",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:38.818Z"
+    }
+  },
+  {
+    "email_id": "user24@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "628577"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:08.818Z"
+    }
+  },
+  {
+    "email_id": "user24@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "181940",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:28.818Z"
+    }
+  },
+  {
+    "email_id": "user24@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "628577",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:48.818Z"
+    }
+  },
+  {
+    "email_id": "user25@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "560890"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:38.818Z"
+    }
+  },
+  {
+    "email_id": "user25@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "560890",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:27:58.818Z"
+    }
+  },
+  {
+    "email_id": "user26@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "227173"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:08.818Z"
+    }
+  },
+  {
+    "email_id": "user26@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "227173",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:28.818Z"
+    }
+  },
+  {
+    "email_id": "user27@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "925268"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:38.818Z"
+    }
+  },
+  {
+    "email_id": "user27@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "613480",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:28:58.818Z"
+    }
+  },
+  {
+    "email_id": "user27@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "381310",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:18.818Z"
+    }
+  },
+  {
+    "email_id": "user27@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "925268",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:38.818Z"
+    }
+  },
+  {
+    "email_id": "user28@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "722772"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:08.818Z"
+    }
+  },
+  {
+    "email_id": "user28@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "722772",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:28.818Z"
+    }
+  },
+  {
+    "email_id": "user29@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "239479"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:38.818Z"
+    }
+  },
+  {
+    "email_id": "user29@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "239479",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:29:58.818Z"
+    }
+  },
+  {
+    "email_id": "user30@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "835064"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:08.818Z"
+    }
+  },
+  {
+    "email_id": "user30@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "450113",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:28.818Z"
+    }
+  },
+  {
+    "email_id": "user30@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "978130",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:48.818Z"
+    }
+  },
+  {
+    "email_id": "user30@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "835064",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:08.818Z"
+    }
+  },
+  {
+    "email_id": "user31@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "065313"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:38.818Z"
+    }
+  },
+  {
+    "email_id": "user31@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "430563",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:30:58.818Z"
+    }
+  },
+  {
+    "email_id": "user31@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "065313",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:18.818Z"
+    }
+  },
+  {
+    "email_id": "user32@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "790973"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:08.818Z"
+    }
+  },
+  {
+    "email_id": "user32@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "171790",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:28.818Z"
+    }
+  },
+  {
+    "email_id": "user32@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "999786",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:48.818Z"
+    }
+  },
+  {
+    "email_id": "user32@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "790973",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:08.818Z"
+    }
+  },
+  {
+    "email_id": "user33@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "200050"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:38.818Z"
+    }
+  },
+  {
+    "email_id": "user33@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "200050",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:31:58.818Z"
+    }
+  },
+  {
+    "email_id": "user34@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "190752"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:08.818Z"
+    }
+  },
+  {
+    "email_id": "user34@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "960409",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:28.818Z"
+    }
+  },
+  {
+    "email_id": "user34@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "175568",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:48.818Z"
+    }
+  },
+  {
+    "email_id": "user34@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "021088",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:08.818Z"
+    }
+  },
+  {
+    "email_id": "user35@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "466517"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:38.818Z"
+    }
+  },
+  {
+    "email_id": "user35@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "515825",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:32:58.818Z"
+    }
+  },
+  {
+    "email_id": "user35@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "472232",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:18.818Z"
+    }
+  },
+  {
+    "email_id": "user35@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "466517",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:38.818Z"
+    }
+  },
+  {
+    "email_id": "user36@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "675730"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:08.818Z"
+    }
+  },
+  {
+    "email_id": "user36@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "675730",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:28.818Z"
+    }
+  },
+  {
+    "email_id": "user37@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "651189"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:38.818Z"
+    }
+  },
+  {
+    "email_id": "user37@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "443618",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:33:58.818Z"
+    }
+  },
+  {
+    "email_id": "user37@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "816228",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:18.818Z"
+    }
+  },
+  {
+    "email_id": "user37@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "178838",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:38.818Z"
+    }
+  },
+  {
+    "email_id": "user38@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "127464"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:08.818Z"
+    }
+  },
+  {
+    "email_id": "user38@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "425674",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:28.818Z"
+    }
+  },
+  {
+    "email_id": "user38@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "127464",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:48.818Z"
+    }
+  },
+  {
+    "email_id": "user39@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "620129"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:38.818Z"
+    }
+  },
+  {
+    "email_id": "user39@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "396446",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:34:58.818Z"
+    }
+  },
+  {
+    "email_id": "user39@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "620129",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:18.818Z"
+    }
+  },
+  {
+    "email_id": "user40@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "827742"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:08.818Z"
+    }
+  },
+  {
+    "email_id": "user40@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "827742",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:28.818Z"
+    }
+  },
+  {
+    "email_id": "user41@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "637774"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:38.818Z"
+    }
+  },
+  {
+    "email_id": "user41@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "637774",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:35:58.818Z"
+    }
+  },
+  {
+    "email_id": "user42@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "057101"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:08.818Z"
+    }
+  },
+  {
+    "email_id": "user42@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "057101",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:28.818Z"
+    }
+  },
+  {
+    "email_id": "user43@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "864744"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:38.818Z"
+    }
+  },
+  {
+    "email_id": "user43@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "864744",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:36:58.818Z"
+    }
+  },
+  {
+    "email_id": "user44@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "561852"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:08.818Z"
+    }
+  },
+  {
+    "email_id": "user44@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "561852",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:28.818Z"
+    }
+  },
+  {
+    "email_id": "user45@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "316216"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:38.818Z"
+    }
+  },
+  {
+    "email_id": "user45@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "585396",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:37:58.818Z"
+    }
+  },
+  {
+    "email_id": "user45@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "365481",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:18.818Z"
+    }
+  },
+  {
+    "email_id": "user45@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "471993",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:38.818Z"
+    }
+  },
+  {
+    "email_id": "user46@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "803545"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:08.818Z"
+    }
+  },
+  {
+    "email_id": "user46@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "746939",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:28.818Z"
+    }
+  },
+  {
+    "email_id": "user46@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "916562",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:48.818Z"
+    }
+  },
+  {
+    "email_id": "user46@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "983434",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:08.818Z"
+    }
+  },
+  {
+    "email_id": "user47@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "522818"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:38.818Z"
+    }
+  },
+  {
+    "email_id": "user47@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "016913",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:38:58.818Z"
+    }
+  },
+  {
+    "email_id": "user47@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "522818",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:18.818Z"
+    }
+  },
+  {
+    "email_id": "user48@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "978039"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:08.818Z"
+    }
+  },
+  {
+    "email_id": "user48@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "851163",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:28.818Z"
+    }
+  },
+  {
+    "email_id": "user48@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "019402",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:48.818Z"
+    }
+  },
+  {
+    "email_id": "user48@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "662939",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:40:08.818Z"
+    }
+  },
+  {
+    "email_id": "user49@dummy.com",
+    "category": "VERIFICATION",
+    "action": "TOKEN_GENERATED",
+    "details": {
+      "token": "999004"
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:38.818Z"
+    }
+  },
+  {
+    "email_id": "user49@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 1,
+      "input_token": "761855",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:39:58.818Z"
+    }
+  },
+  {
+    "email_id": "user49@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 2,
+      "input_token": "788557",
+      "status": false
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:40:18.818Z"
+    }
+  },
+  {
+    "email_id": "user49@dummy.com",
+    "category": "VERIFICATION",
+    "action": "ATTEMPT",
+    "details": {
+      "attempt_number": 3,
+      "input_token": "999004",
+      "status": true
+    },
+    "timestamp": {
+      "$date": "2025-09-05T10:40:38.818Z"
+    }
+  }
+]
