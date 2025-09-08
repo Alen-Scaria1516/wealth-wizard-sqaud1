@@ -46,7 +46,7 @@ def email_verification(connection, mongo_connection, email_id):
                     print("Verified")
                     break
                 else:
-                    remaining = 2 - token_attempt
+                    remaining = 1 - token_attempt
                     if remaining >= 1:
                         print(f"Invalid token. You have {remaining} attempt(s) left. Please try again.")
                     else:

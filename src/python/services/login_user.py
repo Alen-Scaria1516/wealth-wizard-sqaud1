@@ -20,7 +20,7 @@ def login_user(connection, mongo_connection):
         user = cur.fetchone()
 
         if not user:
-            print("Error: Please register before logging in.")
+            print("Error: Not a Valid Email ID | Please register before logging in.")
             return  # Stop here if email not found
 
         user_id, stored_password, is_verified, is_loggedin = user

@@ -38,7 +38,7 @@ def forget_password(connection):
             valid_token = cursor.callfunc("CodeValidationForPassword", oracledb.NUMBER, [email, entered_token] )
             
             if valid_token ==0 :
-                remaining = 2 - token_attempt
+                remaining = 1 - token_attempt
                 if remaining >= 1:
                     print("Invalid token. Password reset failed. Please Try Again.")
                 else:
