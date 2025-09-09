@@ -56,7 +56,7 @@ def forget_password(connection, mongo_connection):
                 else:
                     print("Error: Password Reset denied.")
             else :
-                new_password = get_password()
+                new_password = get_password(connection, mongo_connection)
                 cursor.execute(
                     "UPDATE Users SET password = :password, last_modified = CURRENT_TIMESTAMP WHERE Email_ID = :email", {"password" : new_password, "email" : email})
                 connection.commit()

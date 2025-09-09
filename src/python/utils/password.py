@@ -33,7 +33,7 @@ def get_password(email, mongo_connection):
 
         print("Re-enter your password (input will be hidden):")
         confirm_password = getpass("Confirm Password: ")
-        print(type(password))
+        # print(type(password))
 
         if password != confirm_password:
             print("Passwords do not match. Try again.\n")

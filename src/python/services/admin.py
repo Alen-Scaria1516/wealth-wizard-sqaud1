@@ -103,6 +103,7 @@ def compute_login_stats(file_path):
     df = spark.read.option("multiline", "true").json(file_path)
     df = df.withColumn("ts", to_timestamp(col("timestamp.$date")))
     df = df.withColumn("status", col("details.status"))
+    df = df.filter(col("category") == "LOGIN")
 
     # ----------------- Success vs Failure -----------------
     print("\n Success vs Failure Login Count")
